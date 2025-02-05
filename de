@@ -1,0 +1,43 @@
+ .vfrc-button[label="Start new chat"] {
+    color: transparent;
+    position: relative;
+  }
+  .vfrc-button[label="Start new chat"]::after {
+    content: "Neue Unterhaltung";
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: absolute;
+    display: flex;
+    color: #fff;
+    transform: translateX(-0%);
+  }
+  .vfrc-button[label="Cancel"] {
+    color: transparent;
+    position: relative;
+  }
+  .vfrc-button[label="Cancel"]::after {
+    content: "Abbrechen";
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: absolute;
+    display: flex;
+    color: #323232;
+  }
+
+  ._1bvgnii4 {
+    color: transparent;  
+    position: relative;
+  }
+  
+  ._1bvgnii4::after {
+    content: "Hast du Fragen?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
+    color: #fff;
+    position: absolute;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(15%); /*Flytter teksten for å gjøre plass til ikonet, større prosent -> mer mot høyre*/
+  } 
+  
