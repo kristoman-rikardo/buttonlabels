@@ -3,7 +3,7 @@ button[class*="vfrc-button"][class*="launcher"] > div {
     position: relative;
   }
   
-button[class*="vfrc-button"][class*="launcher"] > div {
+button[class*="vfrc-button"][class*="launcher"] > div::after {
     content: "Got a question?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
     color: #fff;
     position: absolute;
