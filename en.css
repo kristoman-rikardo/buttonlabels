@@ -1,9 +1,9 @@
-  ._15s29m99 {
+button[class*="vfrc-button"][class*="launcher"] > div {
     color: transparent;  
     position: relative;
   }
   
-  ._15s29m99::after {
+button[class*="vfrc-button"][class*="launcher"] > div {
     content: "Got a question?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
     color: #fff;
     position: absolute;
