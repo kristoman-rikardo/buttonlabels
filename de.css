@@ -26,12 +26,12 @@
     color: #323232;
   }
 
-  ._1bvgnii4 {
+  button[class*="vfrc-button"][class*="launcher"] > div {
     color: transparent;  
     position: relative;
   }
   
-  ._1bvgnii4::after {
+  button[class*="vfrc-button"][class*="launcher"] > div::after {
     content: "Hast du Fragen?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
     color: #fff;
     position: absolute;
