@@ -26,13 +26,13 @@
     color: #323232;
   }
 
-  button[class*="vfrc-button"][class*="launcher"] > div {
+  ._15s29m99 {
     color: transparent;  
     position: relative;
   }
   
-button[class*="vfrc-button"][class*="launcher"] > div::after {
-    content: " x   Lurer du på noe?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
+._15s29m99::after {
+    content: "Lurer du på noe?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
     color: #fff;
     position: absolute;
     display: block;
@@ -40,7 +40,3 @@ button[class*="vfrc-button"][class*="launcher"] > div::after {
     justify-content: center;
     transform: translateY(-30%);
   } 
-
-button[class*="vfrc-button"][class*="launcher"] svg {
-  fill: #fff !important;
-}
