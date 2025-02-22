@@ -32,7 +32,7 @@
   }
   
 button[class*="vfrc-button"][class*="launcher"] > div::after {
-    content: "Lurer du på noe?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
+    content: "x   Lurer du på noe?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
     color: #fff;
     position: absolute;
     display: block;
