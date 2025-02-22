@@ -26,17 +26,14 @@
     color: #323232;
   }
 
-  ._15s29m92 {
-    color: transparent;  
-    position: relative;
-  }
-  
-._15s29m92::after {
-    content: "Lurer du på noe?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
-    color: #fff;
-    position: absolute;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    transform: translateX(15%);
-  } 
+._15s29m99 {
+  color: transparent;
+}
+
+._15s29m99::after {
+  content: "Lurer du på noe?";
+  color: #fff;
+  position: relative;
+  display: block;
+  transform: translateY(-50%);
+}
