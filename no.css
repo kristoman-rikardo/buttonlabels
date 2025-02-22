@@ -38,6 +38,5 @@ button[class*="vfrc-button"][class*="launcher"] > div::after {
     display: block;
     align-items: center;
     justify-content: center;
-    transform: translateX(15%); /*Flytter teksten for å gjøre plass til ikonet, større prosent -> mer mot høyre*/
   } 
   
