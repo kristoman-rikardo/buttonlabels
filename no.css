@@ -38,5 +38,9 @@ button[class*="vfrc-button"][class*="launcher"] > div::after {
     display: block;
     align-items: center;
     justify-content: center;
+    transform: translateY(-30%);
   } 
-  
+
+button[class*="vfrc-button"][class*="launcher"] svg {
+  fill: #fff !important;
+}
