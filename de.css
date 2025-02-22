@@ -26,18 +26,15 @@
     color: #323232;
   }
 
-  ._15s29m92 {
-    color: transparent;  
-    position: relative;
-  }
-  
-  ._15s29m92::after {
-    content: "Hast du Fragen?"; /* Teksten må dessverre være omtrent like stor som den tidligere teksten */
-    color: #fff;
-    position: absolute;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    transform: translateX(15%); /*Flytter teksten for å gjøre plass til ikonet, større prosent -> mer mot høyre*/
-  } 
+._15s29m99 {
+  color: transparent;
+}
+
+._15s29m99::after {
+  content: "Hast du Fragen?";
+  color: #fff;
+  position: relative;
+  display: block;
+  transform: translateY(-50%);
+}
   
