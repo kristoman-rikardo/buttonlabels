@@ -1,1 +1,27 @@
-
+ .vfrc-button[label="Start new chat"] {
+    color: transparent;
+    position: relative;
+  }
+  .vfrc-button[label="Start new chat"]::after {
+    content: "Starta ny chatt";
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: absolute;
+    display: flex;
+    color: #fff;
+    transform: translateX(-0%);
+  }
+  .vfrc-button[label="Cancel"] {
+    color: transparent;
+    position: relative;
+  }
+  .vfrc-button[label="Cancel"]::after {
+    content: "Avbryt";
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: absolute;
+    display: flex;
+    color: #323232;
+  }
